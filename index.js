@@ -13,7 +13,7 @@ Se vitórias for maior ou igual a 101 = Imortal
 4- Final: retonar uma mensagem: "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 */
 let saldoVitorias = calcularSaldo(10,6)
-const menssagem = "O Herói tem saldo de " + saldoVitorias + "vitórias, e está no nível "
+const menssagem = "O Herói tem saldo de " + saldoVitorias + " vitórias, e está no nível "
 
 if (saldoVitorias < 10) {
     nivel = "Ferro"

@@ -27,6 +27,9 @@ if (saldoVitorias < 10) {
 } else if ((saldoVitorias >=51) && (saldosVitorias <=80)) {
     nivel = "Ouro"
     console.log (menssagem + nivel)
+} else if ((saldoVitorias >=81) && (saldosVitorias <=90)) {
+    nivel = "Diamante"
+    console.log (menssagem + nivel)
 }
 
 function calcularSaldo(vitorias, derrotas) {

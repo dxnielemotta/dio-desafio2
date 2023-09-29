@@ -15,6 +15,12 @@ Se vitórias for maior ou igual a 101 = Imortal
 let saldoVitorias = calcularSaldo(10,6)
 const menssagem = "O Herói tem saldo de " + saldoVitorias + "vitórias, e está no nível "
 
+if (saldoVitorias < 10) {
+    nivel = "Ferro"
+    console.log (menssagem + nivel)
+}
+
+
 function calcularSaldo(vitorias, derrotas) {
     let saldo = (vitorias - derrotas)
     return saldo

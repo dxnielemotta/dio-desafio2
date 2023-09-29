@@ -18,8 +18,9 @@ const menssagem = "O Herói tem saldo de " + saldoVitorias + "vitórias, e está
 if (saldoVitorias < 10) {
     nivel = "Ferro"
     console.log (menssagem + nivel)
-}
-
+} else if ((saldoVitorias >=11) && (saldosVitorias <=20)) {
+    nivel = "Bronze"
+    console.log (menssagem + nivel) }
 
 function calcularSaldo(vitorias, derrotas) {
     let saldo = (vitorias - derrotas)

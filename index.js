@@ -20,7 +20,11 @@ if (saldoVitorias < 10) {
     console.log (menssagem + nivel)
 } else if ((saldoVitorias >=11) && (saldosVitorias <=20)) {
     nivel = "Bronze"
-    console.log (menssagem + nivel) }
+    console.log (menssagem + nivel) 
+} else if ((saldoVitorias >=21) && (saldosVitorias <=50)) {
+    nivel = "Prata"
+    console.log (menssagem + nivel)
+}
 
 function calcularSaldo(vitorias, derrotas) {
     let saldo = (vitorias - derrotas)

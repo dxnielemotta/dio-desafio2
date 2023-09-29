@@ -33,6 +33,9 @@ if (saldoVitorias < 10) {
 } else if ((saldoVitorias >=91) && (saldosVitorias <=100)) {
     nivel = "Lendário"
     console.log (menssagem + nivel)
+} else {
+    nivel = "Imortal"
+    console.log (menssagem + nivel)
 }
 
 function calcularSaldo(vitorias, derrotas) {

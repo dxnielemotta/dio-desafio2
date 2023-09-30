@@ -39,6 +39,6 @@ if (saldoVitorias < 10) {
 }
 
 function calcularSaldo(vitorias, derrotas) {
-    let saldo = (vitorias - derrotas)
+    const saldo = vitorias - derrotas
     return saldo
 }

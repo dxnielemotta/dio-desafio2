@@ -16,25 +16,25 @@ let saldoVitorias = calcularSaldo(10,6)
 const menssagem = "O Herói tem saldo de " + saldoVitorias + " vitórias, e está no nível "
 
 if (saldoVitorias < 10) {
-    nivel = "Ferro"
+    let nivel = "Ferro"
     console.log (menssagem + nivel)
 } else if ((saldoVitorias >=11) && (saldosVitorias <=20)) {
-    nivel = "Bronze"
+    let nivel = "Bronze"
     console.log (menssagem + nivel) 
 } else if ((saldoVitorias >=21) && (saldosVitorias <=50)) {
-    nivel = "Prata"
+    let nivel = "Prata"
     console.log (menssagem + nivel)
 } else if ((saldoVitorias >=51) && (saldosVitorias <=80)) {
-    nivel = "Ouro"
+    let nivel = "Ouro"
     console.log (menssagem + nivel)
 } else if ((saldoVitorias >=81) && (saldosVitorias <=90)) {
-    nivel = "Diamante"
+    let nivel = "Diamante"
     console.log (menssagem + nivel)
 } else if ((saldoVitorias >=91) && (saldosVitorias <=100)) {
-    nivel = "Lendário"
+    let nivel = "Lendário"
     console.log (menssagem + nivel)
 } else {
-    nivel = "Imortal"
+    let nivel = "Imortal"
     console.log (menssagem + nivel)
 }
 
